@@ -7,11 +7,26 @@ body {
     color: white;
 }
 
-.suggestion-container {
+.suggestions {
     background-color: white;
     border-radius: 0.5rem;
-    color: blue;
+    color: black;
     margin: 0.25rem;
     padding: 1rem;
     text-align: center;
+    cursor: pointer;
+    width: 75%;
+}
+
+.song-details {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.song-title {
+    font-weight: bold;
+}
+.song-artist-name {
+    color: green;
 }

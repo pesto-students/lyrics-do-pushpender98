@@ -39,13 +39,12 @@
 
     <div id="song-suggestions-conatiner">
       <div class="row">
-        <div class="col-12">
-          <div class="suggestion-container d-none" id="suggestion-empty">
-            Search for some song suggestion!
+        <div class="col-12 d-flex justify-content-center">
+          <div class="suggestion-container suggestions" id="suggestion-empty">
+            Search for song suggestions!
           </div>
-          <div class="suggestion-container" id="suggestion-song">
-              <div class="song-artist-name">Pushpender Singh</div>
-              <div class="song-title">Hello</div>
+          <div class="suggestion-container  flex-column align-items-center w-100 d-none" id="suggestion-song">
+            <div class="d-flex justify-content-around mb-2 suggestions song-sugestion-data" id="suggestion-inner-song"></div>
           </div>
         </div>
       </div>
