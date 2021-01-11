@@ -1,0 +1,32 @@
+body {
+    background-image: url(images/image.jpg);
+}
+
+#search-input {
+    width: 60%;
+    color: white;
+}
+
+.suggestions {
+    background-color: white;
+    border-radius: 0.5rem;
+    color: black;
+    margin: 0.25rem;
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+    width: 75%;
+}
+
+.song-details {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.song-title {
+    font-weight: bold;
+}
+.song-artist-name {
+    color: green;
+}
